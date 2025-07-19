@@ -529,8 +529,8 @@ h6 {
   object-position: left
 }
 .ibg--right {
-  -o-object-position: right;
-  object-position: right
+  -o-object-position: top right;
+  object-position: top right
 }
 .ibg--contain {
   -o-object-fit: contain;
@@ -1738,26 +1738,26 @@ h6 {
   z-index: 1
 }
 .core-hero:has(.core-hero__image-nfl) {
-  background: linear-gradient(45deg,#00173f 60%,#1f3f82 85%),#1f3f84
+  background: linear-gradient(45deg,#00173f 31%,#02397b 83%),#1f3f84
 }
 .core-hero:has(.core-hero__image-nba) {
-  background: linear-gradient(60deg,#002a60 60%,#2a56a4 95%),#2a56a4
+  background: linear-gradient(0deg,#002a60 0,#004c9b 100%),#0a3161
 }
 .core-hero:has(.core-hero__image-mlb) {
-  background: linear-gradient(91deg,#00326c 53.38%,#0e60b8 82.17%)
+  background: linear-gradient(91deg,#00326c 42.38%,#0e60b8 99.17%)
 }
 .core-hero:has(.core-hero__image-nhl) {
-  background: linear-gradient(75deg,#152866 60.68%,#2e54b7 65.5%)
+  background: linear-gradient(90deg,#00296a 25%,#0052b4 99.5%)
 }
 .core-hero:has(.core-hero__image-soccer) {
-  background: linear-gradient(90deg,#003c78 60.81%,#0a67bc 74%),#0a3161
+  background: linear-gradient(90deg,#003c78 40.81%,#0a67bc 100%),#0a3161
 }
 .core-hero:has(.core-hero__image-tennis) {
-  background: linear-gradient(81deg,#163068 72.81%,#2f59b5 61%),#0a3161
+  background: linear-gradient(90deg,#013571 40.81%,#0253ac 100%),#0a3161
 }
 .core-hero__image-nfl {
   top: 0;
-  right: -154px;
+  right: -50px;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover
@@ -1765,8 +1765,7 @@ h6 {
 .core-hero__image-nba {
   top: 0;
   right: 0;
-  height: 100%;
-  aspect-ratio: 725/483
+  height: 100%
 }
 .core-hero__image-mlb {
   right: -15px;
@@ -2634,7 +2633,7 @@ h6 {
     margin: 32px 0
   }
   .core-hero__image-nfl {
-    right: -200px
+    right: -150px
   }
   .core-hero__image-nba {
     right: -40px
